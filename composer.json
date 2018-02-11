@@ -1,0 +1,38 @@
+{
+  "name": "flayfl/laravel-xslt",
+  "description": "xslt template engine for laravel",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "XSLT",
+    "XSL",
+    "XML",
+    "template",
+    "view"
+  ],
+  "authors": [
+    {
+      "name": "Flavius F",
+      "email": "flayfl@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "5.5.*",
+    "illuminate/view": "5.5.*",
+    "illuminate/console": "5.5.*",
+    "illuminate/events": "5.5.*",
+    "illuminate/queue": "5.5.*",
+    "ext-xsl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flayfl\\LaravelXSLT\\": "src/XSLT"
+    }
+  },
+  "suggest": {
+    "barryvdh/laravel-debugbar": "Allows displaying XML tree content for debug"
+  },
+  "minimum-stability": "stable"
+}
